@@ -6,7 +6,7 @@ import math
 # print("Sum of Given nnumbers are :", (a + b))
 
 
-# --------------------------------------Area of Circule-----------------------------------------------------
+# --------------------------------------Area of Circle-----------------------------------------------------
 
 r= int(input("Enter the Radius in cm : "))
 print((math.pi)*r*r);
