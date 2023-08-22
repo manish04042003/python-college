@@ -40,15 +40,31 @@
 #       count = count +1 ; 
 
 
-s= eval(input('Enter a number where you want to start the Sum : '))
-l= eval(input('Enter a number where you want to Sum : '))
+# s= eval(input('Enter a number where you want to start the Sum : '))
+# l= eval(input('Enter a number where you want to Sum : '))
 
-if(s>=l):
-    print("Enter a Valid Number")
+# if(s>=l):
+#     print("Enter a Valid Number")
+# else:
+#     sum = 0;
+#     while(s<=l):
+#         sum = sum + s;
+#         s = s+1;
+#     print("Sum is",sum)
+
+
+# Prime or Not 
+a = eval(input("enter the first number "));
+count = 2;
+while(count<a):
+    if(a%count==0):
+        print("not a Prime Number");
+        break;
+    count= count +1;
 else:
-    sum = 0;
-    while(s<=l):
-        sum = sum + s;
-        s = s+1;
-    print("Sum is",sum)
+    print("is a Prime Number");
+    
+
+
+
 
