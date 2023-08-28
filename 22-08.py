@@ -53,7 +53,7 @@
 #     print("Sum is",sum)
 
 
-# Prime or Not 
+#======================== Prime or Not 
 # a = eval(input("enter the first number "));
 # count = 2;
 # while(count<a):
@@ -64,28 +64,38 @@
 # else:
 #     print("is a Prime Number");
 
+# ===========================Twin prime
 
-start = eval(input('Enter the strating number : '))
+# start = eval(input('Enter the strating number (>2) : '))
 
-end = eval(input('Enter the Ending number : '))
-lastPrime = 0;
-while(start<=end):
-    i = 2;
-    while(i<start):
-        if(start%i==0):
-            break
-        i=i+1;
-    else:
-        if(lastPrime ==(start-2)):
-            print(lastPrime,start);
-            print('            ');
-        lastPrime = start ;
-    start = start +1 ;
+# end = eval(input('Enter the Ending number : '))
+# lastPrime = 0;
+# while(start<=end):
+#     i = 2;
+#     while(i<start):
+#         if(start%i==0):
+#             break
+#         i=i+1;
+#     else:
+#         if(lastPrime ==(start-2)):
+#             print(lastPrime,start);
+#             print('            ');
+#         lastPrime = start ;
+#     start = start +1 ;
 
-print("ennd")
+# print("ennd")
 
     
 
 
+
+# for loop implimention
+
+sum =0 ;
+
+for i in range(0 ,11,1):
+    sum+=i;
+
+print(sum)
 
 
