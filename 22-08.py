@@ -66,6 +66,7 @@
 
 
 start = eval(input('Enter the strating number : '))
+
 end = eval(input('Enter the Ending number : '))
 lastPrime = 0;
 while(start<=end):
@@ -75,9 +76,10 @@ while(start<=end):
             break
         i=i+1;
     else:
-        if(lastPrime ==(start-2) or lastPrime == 0):
-            lastPrime = start
-            print(lastPrime);
+        if(lastPrime ==(start-2)):
+            print(lastPrime,start);
+            print('            ');
+        lastPrime = start ;
     start = start +1 ;
 
 print("ennd")
