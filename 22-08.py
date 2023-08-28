@@ -115,5 +115,9 @@
 # else:
 #     print('yes it is a prime number')
 
+n= eval(input('Enter a Number : '))
 
-
+for i in range(1 , n+1):
+    for j in range(1,i+1):
+        print("@\t",end="")
+    print()
