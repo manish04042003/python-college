@@ -91,11 +91,29 @@
 
 # for loop implimention
 
-sum =0 ;
+# sum =0 ;
 
-for i in range(0 ,11,1):
-    sum+=i;
+# for i in range(0 ,11,1):
+#     sum+=i;
 
-print(sum)
+
+
+# for i in range(11,1,-2):
+#     sum +=i ;
+
+
+# print(sum)
+
+
+# checkr = eval(input('Enter a Number '));
+
+
+# for i in range(2,checkr//2,1):
+#     if(checkr % i == 0):
+#         print('it is not a prime number')
+#         break ;
+# else:
+#     print('yes it is a prime number')
+
 
 
