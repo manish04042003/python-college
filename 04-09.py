@@ -39,6 +39,10 @@ def fact(n):
   return ans  ;
 
 
-ncr = fact(n)/fact(n-r);
+pnr = fact(n)/fact(n-r);
+cnr = pnr/fact(r);
 
-print(ncr)
+print('Permutations : ', end="")
+print(pnr);
+print('Combinations : ', end="")
+print(cnr)

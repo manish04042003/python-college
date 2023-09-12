@@ -66,27 +66,27 @@
 
 # ===========================Twin prime
 
-# start = eval(input('Enter the strating number (>2) : '))
-
-# end = eval(input('Enter the Ending number : '))
-# lastPrime = 0;
-# while(start<=end):
-#     i = 2;
-#     while(i<start):
-#         if(start%i==0):
-#             break
-#         i=i+1;
-#     else:
-#         if(lastPrime ==(start-2)):
-#             print(lastPrime,start);
-#             print('            ');
-#         lastPrime = start ;
-#     start = start +1 ;
-
-# print("ennd")
+start = eval(input('Enter the strating number : '))
+end = eval(input('Enter the Ending number : '))
+lastPrime = 0;
+count = 0 ;
+while(start<=end):
+    i = 2;
+    while(i<start):
+        if(start%i==0):
+            break
+        i=i+1;
+    else:
+        if(lastPrime ==(start-2)):
+            count  = count + 1;
+            print('(', end="");
+            print(lastPrime,",",start ,end="");
+            print(')', end="");
+            print(',', end="");
+        lastPrime = start ;
+    start = start +1 ;
 
     
-
 
 
 # for loop implimention
@@ -115,13 +115,13 @@
 # else:
 #     print('yes it is a prime number')
 
-n= eval(input('Enter a Number : '))
+# n= eval(input('Enter a Number : '))
 
-for i in range(1 , n+1):
-    if(i%2==0):
-        str = "*";
-    else:
-        str = "@";
-    for j in range(1,i+1):
-        print(str,end="")
-    print()
+# for i in range(1 , n+1):
+#     if(i%2==0):
+#         str = "*";
+#     else:
+#         str = "@";
+#     for j in range(1,i+1):
+#         print(str,end="")
+#     print()
