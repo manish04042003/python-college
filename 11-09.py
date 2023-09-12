@@ -6,5 +6,11 @@ def fact(n):
     return temp 
 
 
-ans = fact(10)
-print(ans)
+# ans = fact(10)
+# print(ans)
+
+class myClass:
+    x=3;
+    
+print(myClass.x);
+
